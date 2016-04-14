@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+	<title></title>
+</head>
+<body ng-controller="mainCtrl">
+
+
+<!-- {{test}} -->
+<button ui-sref="home">Home</button>
+<button ui-sref="about">About</button>
+<button ui-sref="projects">Projects</button>
+
+<hr>
+<div ui-view>
+	
+</div>
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="js/mainCtrl.js"></script>
+<script type="text/javascript" src="js/aboutCtrl.js"></script>
+<script type="text/javascript" src="js/projectsCtrl.js"></script>
+</body>
+</html>
