@@ -2,26 +2,31 @@
 <html ng-app="app">
 <head>
 	<title></title>
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
 
 </head>
 <body>
-	<main ng-controller="mainCtrl">
-		<my-header></my-header>
+	<main ng-controller="mainCtrl" class="main">
 
-		<hr>
+		<my-header></my-header>
+		
+
+		
+		<!-- <hr> -->
 
 		<div ui-view></div>
+		
 
-		<hr>
+		<!-- <hr> -->
 
-		<my-footer><my-footer>
+
 
 
 	</main>
 
 
-
+<my-footer><my-footer>
 
 
 
@@ -35,5 +40,7 @@
 <script type="text/javascript" src="js/projectsCtrl.js"></script>
 <script type="text/javascript" src="js/footerDir.js"></script>
 <script type="text/javascript" src="js/headerDir.js"></script>
+<script type="text/javascript" src="js/projDir.js"></script>
+
 </body>
 </html>
