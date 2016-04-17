@@ -1,49 +1,41 @@
 <div class="container">
+	<div class="row">
+		<div class="col-xs-6 col-md-4">
+			<div class="projectTile">
+				<p>Project Number One</p>
+				<div ng-controller='myCtrl'>
+	  				<img src="styles/img/background.jpg" ng-click="toggleModal()">
+	  				<modal-dialog show='modalShown' width='400px' height='60%'>
+	  					<p>Modal Content 1<p>
+	  				</modal-dialog>
+  				</div>
+  			</div>
+		</div>
 
-<!-- 	<div class="row">
-		<div class="projectTile">
-		  <div class="col-xs-6 col-md-4">
-		    <a href="#" class="thumbnail">
-		      <img src="styles/img/background.jpg" alt="Project">
-		    </a>
-		  </div>
-		  
-		  <div class="col-xs-6 col-md-4">
-		    <a href="#" class="thumbnail">
-		      <img src="styles/img/background.jpg" alt="Project">
-		    </a>
-		  </div>
-		  
-		  <div class="col-xs-6 col-md-4">
-		    <a href="#" class="thumbnail">
-		      <img src="styles/img/background.jpg" alt="Project">
-		    </a>
-		  </div>
+		<div class="col-xs-6 col-md-4">
+			<div class="projectTile">
+				<p>Project Number Two</p>
+				<div ng-controller='myCtrl'>
+	  				<img src="styles/img/background.jpg" ng-click="toggleModal()">
+	  				<modal-dialog show='modalShown' width='400px' height='60%'>
+	  					<p>Modal Content 2<p>
+	  				</modal-dialog>
+  				</div>
+  			</div>
+		</div>
+
+		<div class="col-xs-6 col-md-4">
+			<div class="projectTile">
+				<p>Project Number Three</p>
+				<div ng-controller='myCtrl'>
+	  				<img src="styles/img/background.jpg" ng-click="toggleModal()">
+	  				<modal-dialog show='modalShown' width='400px' height='60%'>
+	  					<p>Modal Content 3<p>
+	  				</modal-dialog>
+  				</div>
+  			</div>
 		</div>
 	</div>
-
-
-	<my-proj></my-proj> -->
-
-
-
-	<div ng-controller='MyCtrl'>
-	    <button ng-click='toggleModal()'>Open Modal Dialog</button>
-	    <modal-dialog show='modalShown' width='400px' height='60%'>
-	      <p>Modal Content Goes here<p>
-	    </modal-dialog>
-
-  	</div>
-
-  	<br>
-
-  	<div ng-controller='MyCtrl'>
-	    <button ng-click='toggleModal()'>Open Modal Dialog</button>
-	    <modal-dialog show='modalShown' width='400px' height='60%'>
-	      <p>Modal Content 2<p>
-	    </modal-dialog>
-
-  	</div>
 </div>
 
 

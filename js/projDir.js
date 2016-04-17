@@ -5,8 +5,8 @@ angular.module('app')
     scope: {
       show: '='
     },
-    replace: true, // Replace with the template below
-    transclude: true, // we want to insert custom content inside the directive
+    replace: true, 
+    transclude: true, 
     link: function(scope, element, attrs) {
       scope.dialogStyle = {};
       if (attrs.width)
@@ -21,7 +21,7 @@ angular.module('app')
   };
 });
 
-angular.module('app').controller('MyCtrl', ['$scope', function($scope) {
+angular.module('app').controller('myCtrl', ['$scope', function($scope) {
   $scope.modalShown = false;
   $scope.toggleModal = function() {
     $scope.modalShown = !$scope.modalShown;
