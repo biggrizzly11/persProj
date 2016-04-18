@@ -1,0 +1,19 @@
+<div id="container">
+	<div class="row">
+		<div class="col-md-12">
+			<div ng-controller="pokeCtrl" class="pokemon">
+				<h1>Pokemon API</h1>
+			    <hr>
+			    <h2>Find a Pokemon</h2>
+			    <input placeholder="Pokemon Number" ng-model="num">
+			    <button ng-click="poke()">submit</button>
+			    <h3>{{pokemon}}</h3>
+			    <h4>{{pokemonAbility}}</h4>
+			    <img src="{{pokemonImg}}">
+			    <img src="{{pokemonImgBack}}">
+			</div>
+		</div>
+	</div>
+</div>
+
+

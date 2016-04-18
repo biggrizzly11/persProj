@@ -1,4 +1,4 @@
-angular.module('app', ['ui.router'])
+angular.module('app', ['ui.router', 'ui.bootstrap'])
 	.config(function($stateProvider, $urlRouterProvider){
 
 		$urlRouterProvider.otherwise('/');
@@ -16,6 +16,10 @@ angular.module('app', ['ui.router'])
 			.state('projects', {
 				url: '/projects',
 				templateUrl: 'projects.html'
+			})
+			.state('pokemon', {
+				url: '/pokemon',
+				templateUrl: 'pokemon.html'
 			});
 
 
