@@ -123,7 +123,7 @@
 }
 
 .proText {
-	color: white;
+	color: lightblue;
 	font-size: 30px;
 }
 
@@ -232,6 +232,60 @@
 .yodaform {
 	padding-top: 25px;
 }
+
+/*Jquery snake game*/
+
+.snake {
+	text-align: center;
+	padding-bottom: 30px;
+	padding-top: 30px;
+
+}
+
+.snakestart {
+	margin-bottom: 10px;
+	margin-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: 25px;
+}
+
+.jsnake {
+	color: lightblue;
+	padding-bottom: 20px;
+}
+
+/*weather api*/
+
+.weather {
+	width: 300px;
+	height: 50px;
+	padding-top: 100px;
+}
+
+.weathp {
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.weathh {
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

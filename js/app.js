@@ -24,6 +24,10 @@ angular.module('app', ['ui.router', 'ui.bootstrap'])
 			.state('yoda', {
 				url: '/yoda',
 				templateUrl: 'yoda.html'
+			})
+			.state('snake', {
+				url:'/snake',
+				templateUrl: 'snake.html'
 			});
 
 
