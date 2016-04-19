@@ -127,6 +127,11 @@
 	font-size: 30px;
 }
 
+.proyoda {
+	padding-top: 20px;
+	margin-top: 20px;
+}
+
 /*header*/
 
 .nav-pills a {
@@ -202,7 +207,31 @@
 	margin-bottom: 40px;
 }
 
+/*yoda api*/
 
+.yodaText {
+	color: white;
+	padding-top: 50px;
+	font-size: 30px;
+}
+
+.yoda {
+	width: 50%;
+	height: 650px;
+	text-align: center;
+	margin-left: 300px;
+	margin-right: 50px;
+	background-color: gray;
+	margin-bottom: 40px;
+}
+
+.yodas {
+	padding-top: 50px;
+}
+
+.yodaform {
+	padding-top: 25px;
+}
 
 
 

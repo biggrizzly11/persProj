@@ -2,7 +2,7 @@
 	<div class="row">
 		<div class="col-xs-6 col-md-4">
 			<div class="projectTile">
-				<p class="proText">Pokemon App</p>
+				<p class="proText">Pokemon API</p>
 				<div ng-controller='myCtrl'>
 	  				<img src="styles/img/pokemon.png" ng-click="toggleModal()">
 	  				<modal-dialog show='modalShown' width='400px' height='60%'>
@@ -16,12 +16,13 @@
 
 		<div class="col-xs-6 col-md-4">
 			<div class="projectTile">
-				<p class="proText">Project Number Two</p>
+				<p class="proText">Yoda Speech API</p>
 				<div ng-controller='myCtrl'>
-	  				<img src="styles/img/background.jpg" ng-click="toggleModal()">
+	  				<img src="styles/img/Yoda.jpg" ng-click="toggleModal()">
 	  				<modal-dialog show='modalShown' width='400px' height='60%'>
-	  					<p>Modal Content 2<p>
-	  					
+	  					<p>Yoda Speech API<p>
+	  					<a ui-sref="yoda">Learn to Speech Like Yoda</a><br/><br/>
+	  					<a ui-sref="yoda" class="proyoda"><img src="styles/img/yoda1.png"></a>
 	  				</modal-dialog>
   				</div>
   			</div>
@@ -32,8 +33,10 @@
 				<p class="proText">Project Number 3</p>
 				<div ng-controller='myCtrl'>
 	  				<img src="styles/img/background.jpg" ng-click="toggleModal()">
-	  				<modal-dialog show='modalShown' width='400px' height='60%'>
+	  				<modal-dialog show='modalShown' width='500px' height='500'>
 	  					<p>Modal Content 3<p>
+	  					<canvas id='canvas' width="450" height="450"></canvas>
+						<button id="start">start</button>
 	  				</modal-dialog>
   				</div>
   			</div>

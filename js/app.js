@@ -20,6 +20,10 @@ angular.module('app', ['ui.router', 'ui.bootstrap'])
 			.state('pokemon', {
 				url: '/pokemon',
 				templateUrl: 'pokemon.html'
+			})
+			.state('yoda', {
+				url: '/yoda',
+				templateUrl: 'yoda.html'
 			});
 
 
